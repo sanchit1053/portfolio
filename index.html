@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script type="text/javascript" src="https://livejs.com/live.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link rel="stylesheet" href="./static/css/style.css" class="css">
+        <script src="./static/js/navigation.js" defer></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <title>
             Sanchit Jindal
         </title>
     </head>
     <body>
-        <h1>
-            Sanchit Jindal
-        </h1>
+
+        <button aria-controls="#primary-navigation" aria-expanded="false" class="nav-toggle material-icons">menu</button>
+        <nav>
+            <ul data-visible="true" id="primary-navigation" class="navigation flex">
+                <li> Home</li>
+                <li> Projects</li>
+                <li> Contact Me</li>
+            </ul>
+        </nav>
     </body>
 </html>
